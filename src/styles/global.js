@@ -10,7 +10,7 @@ export const GlobalStyled = createGlobalStyle`
 body {
   background: #10141e;  
   font-family: 'Outfit';
-  font-style: normal;
+
   font-weight: 300;
   font-size: 15px;
   line-height: 19px;

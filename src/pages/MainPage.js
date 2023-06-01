@@ -1,16 +1,13 @@
 import styled from "styled-components";
 import { GlobalStyled } from "../styles/global";
 import MainPageSideBar from "../components/main-page/side-bar";
+import HomeCategory from "../components/categories/home/category-home";
 
 const MainPageContainerStyled = styled.div`
   padding-left: 32px;
   padding-top: 32px;
   display: flex;
   gap: 36px;
-`;
-const MainPageContentStyled = styled.div`
-  //   margin: 50px 0;
-  height: 100%;
 `;
 
 function MainPage() {
@@ -20,9 +17,7 @@ function MainPage() {
       <MainPageContainerStyled>
         <MainPageSideBar />
 
-        <MainPageContentStyled>
-          <span>Content</span>
-        </MainPageContentStyled>
+        <HomeCategory />
       </MainPageContainerStyled>
     </>
   );

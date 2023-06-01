@@ -9,5 +9,8 @@ input:focus {
   user-select: none;
   text-decoration: none;
   position: relative;
-  align-items: center !important;
+  align-items: flex-start ;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: start;
+
 }

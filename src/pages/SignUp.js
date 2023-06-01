@@ -1,5 +1,5 @@
 import LoginContent from "../components/login/login-content";
-import LoginHeader from "../components/login/login-header";
+import Logo from "../components/logo";
 import { GlobalStyled } from "../styles/global";
 import { LoginContainerStyled } from "../styles/login-styles/login-container.styled";
 
@@ -9,7 +9,7 @@ function SignUp() {
       <GlobalStyled />
 
       <LoginContainerStyled>
-        <LoginHeader />
+        <Logo />
         <LoginContent entry={"Sign Up"} to={"/"} />
       </LoginContainerStyled>
     </>

@@ -5,7 +5,9 @@ body {
 input:focus {
   caret-color: #fc4747;
   justify-content: center;
-  box-shadow: inset  0px 2px 0px;
+  box-shadow: inset 0px 2px 0px;
   user-select: none;
   text-decoration: none;
+  position: relative;
+  align-items: center !important;
 }

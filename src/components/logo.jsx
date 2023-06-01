@@ -1,6 +1,6 @@
-import { LogoStyled } from "../../styles/login-styles/logo.styled";
+import { LogoStyled } from "../styles/logo.styled";
 
-function LoginHeader() {
+function Logo() {
   return (
     <LogoStyled>
       <svg width="33" height="27" xmlns="http://www.w3.org/2000/svg">
@@ -13,4 +13,4 @@ function LoginHeader() {
   );
 }
 
-export default LoginHeader;
+export default Logo;

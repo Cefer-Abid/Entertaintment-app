@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { LoginFooterStyled } from "../styles/login-footer.styled";
+import { LoginFooterStyled } from "../../styles/login-styles/login-footer.styled";
 
 function LoginFooter({ entry, to }) {
   return (

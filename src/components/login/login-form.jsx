@@ -1,4 +1,4 @@
-import { LoginFormStyled } from "../styles/login-form.styled";
+import { LoginFormStyled } from "../../styles/login-styles/login-form.styled";
 
 function LoginForm({ entry }) {
   const display = entry === "Login" && "hidden";

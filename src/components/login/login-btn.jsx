@@ -1,4 +1,4 @@
-import { LoginButtonStyled } from "../styles/login-btn.styled";
+import { LoginButtonStyled } from "../../styles/login-styles/login-btn.styled";
 
 function LoginButton({ entry }) {
   return (

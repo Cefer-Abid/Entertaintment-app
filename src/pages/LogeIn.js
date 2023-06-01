@@ -1,7 +1,7 @@
-import LoginContent from "../components/login-content";
-import LoginHeader from "../components/login-header";
+import LoginContent from "../components/login/login-content";
+import LoginHeader from "../components/login/login-header";
 import { GlobalStyled } from "../styles/global";
-import { LoginContainerStyled } from "../styles/login-container.styled";
+import { LoginContainerStyled } from "../styles/login-styles/login-container.styled";
 
 function LogeIn() {
   return (
@@ -10,7 +10,7 @@ function LogeIn() {
 
       <LoginContainerStyled>
         <LoginHeader />
-        <LoginContent entry={"Login"} to={"/sign-up"}/>
+        <LoginContent entry={"Login"} to={"/sign-up"} />
       </LoginContainerStyled>
     </>
   );

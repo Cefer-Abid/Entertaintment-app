@@ -1,4 +1,4 @@
-import { LogoStyled } from "../styles/logo.styled";
+import { LogoStyled } from "../../styles/login-styles/logo.styled";
 
 function LoginHeader() {
   return (
